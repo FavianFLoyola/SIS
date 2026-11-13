@@ -10,6 +10,7 @@ public class Favian
 				Scanner userStringInput = new Scanner(System.in);
 				System.out.println("What is your name");
 				String name = userStringInput.nextLine();
+				if(name.equals(name))
 					aura++;
 				if(aura == 1)
 					System.out.println("Frank is aura");
