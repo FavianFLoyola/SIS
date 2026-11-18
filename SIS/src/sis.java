@@ -64,5 +64,4 @@ public class sis
 		System.out.println("2) Delete student");
 		
 		}
-}
 
