@@ -42,9 +42,30 @@ public class sis
 
 	private static void changeGradeorSchedule() 
 		{
-		System.out.println("What do you want to change?");
-		System.out.println("1) Student grade");
-		System.out.println("2) Student schedule");
+		
+		Scanner userIntInput = new Scanner(System.in);
+		Scanner userStringInput = new Scanner(System.in);
+		boolean isChanging = true;
+		while (isChanging)
+			{
+			System.out.println("What do you want to change?");
+			System.out.println("1) Student grade");
+			System.out.println("2) Student schedule");
+			int change = userIntInput.nextInt();
+			if(change == 1)
+				{
+					
+				}
+			else if(change == 2)
+				{
+					
+				}
+			else
+				{
+					System.out.println("Invalid");
+					isChanging = true;
+				}
+			}
 		}
 	private static void addOrDelete() 
 		{
